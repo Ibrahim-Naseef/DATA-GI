@@ -21,10 +21,10 @@ It is used to set username and mail so we can keep track that changes can be mad
 
 - status : displays staus of code or file
 
-1. untracked : new files which are not added
-2. modified : file that content are changed
-3. staged : file is ready to be commited
-4. unmodified : didnt change any content of file
+  1. untracked : new files which are not added
+  2. modified : file that content are changed
+  3. staged : file is ready to be commited
+  4. unmodified : didnt change any content of file
 
 - add : To add the modified file to staged state
   `git add <file>`
@@ -34,3 +34,13 @@ It is used to set username and mail so we can keep track that changes can be mad
 
 - push : Upload local repo to remote repo
   `git push origin main`
+
+## To create new Repo in Local and Upload it to Remote Repo
+
+1. Create a new Repo. `mkdir NewRepo`
+2. Change directory to that new Repo. `cd Newrepo`
+3. Run `git init` command to initialize it as an Git Repository
+4. Add files that are required.
+5. Make a new repo in github
+6. Run `git remote add origin <-git repo link->` to add to remote system.
+7. Run `git remote -v` to confirm the path
