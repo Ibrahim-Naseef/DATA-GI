@@ -16,23 +16,26 @@ It is used to set username and mail so we can keep track that changes can be mad
 
 ## Git Commands
 
-- clone : used to download repo from github to local machine
+- **clone** : used to download repo from github to local machine
   `git clone <link>
 
-- status : displays staus of code or file
 
+- **status** : displays staus of code or file
   1. untracked : new files which are not added
   2. modified : file that content are changed
   3. staged : file is ready to be commited
   4. unmodified : didnt change any content of file
 
-- add : To add the modified file to staged state
+
+- **add** : To add the modified file to staged state
   `git add <file>`
 
-- commit : Keeps records of all changes
+
+- **commit** : Keeps records of all changes
   `git commit -m <message>`
 
-- push : Upload local repo to remote repo
+
+- **push** : Upload local repo to remote repo
   `git push origin main`
 
 ## To create new Repo in Local and Upload it to Remote Repo
