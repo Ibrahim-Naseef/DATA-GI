@@ -19,21 +19,18 @@ It is used to set username and mail so we can keep track that changes can be mad
 - **clone** : used to download repo from github to local machine
   `git clone <link>
 
-
 - **status** : displays staus of code or file
+
   1. untracked : new files which are not added
   2. modified : file that content are changed
   3. staged : file is ready to be commited
   4. unmodified : didnt change any content of file
 
-
 - **add** : To add the modified file to staged state
   `git add <file>`
 
-
 - **commit** : Keeps records of all changes
   `git commit -m <message>`
-
 
 - **push** : Upload local repo to remote repo
   `git push origin main`
@@ -47,3 +44,12 @@ It is used to set username and mail so we can keep track that changes can be mad
 5. Make a new repo in github
 6. Run `git remote add origin <-git repo link->` to add to remote system.
 7. Run `git remote -v` to confirm the path
+
+## Git Branches
+
+Git Branches are useful when multiple developers works on same Project to add diffrent features wuthout interrupting/waiting other developers to complete their work
+
+- `git branch` : Lists all the availible branches of repo.
+- `git checkout <-BranchName->` : To Switch between Branches
+- `git checkout -b <-Branch Name->` : To create new Branch and swicth to that Branch.
+- `git branch -d` : To Delete a Branch
