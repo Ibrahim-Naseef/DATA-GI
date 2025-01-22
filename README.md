@@ -26,8 +26,11 @@ It is used to set username and mail so we can keep track that changes can be mad
 3. staged : file is ready to be commited
 4. unmodified : didnt change any content of file
 
--add : To add file to staged state
-`git add <file>`
+- add : To add the modified file to staged state
+  `git add <file>`
 
--commit : Keeps records of all changes
-`git commit -m <message>`
+- commit : Keeps records of all changes
+  `git commit -m <message>`
+
+- push : Upload local repo to remote repo
+  `git push origin main`
