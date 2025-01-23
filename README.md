@@ -32,8 +32,12 @@ It is used to set username and mail so we can keep track that changes can be mad
 - **commit** : Keeps records of all changes
   `git commit -m <message>`
 
-- **push** : Upload local repo to remote repo
+- **push** : Upload local changes made in repo to remote repo
   `git push origin main`
+
+- **pull** : pull chnaged remote repo into the local
+  `git pull origin main`
+
 
 ## To create new Repo in Local and Upload it to Remote Repo
 
@@ -53,3 +57,13 @@ Git Branches are useful when multiple developers works on same Project to add di
 - `git checkout <-BranchName->` : To Switch between Branches
 - `git checkout -b <-Branch Name->` : To create new Branch and swicth to that Branch.
 - `git branch -d` : To Delete a Branch
+- `git diff <-BranchName->` : Comapres the diffrence between 2 Repository
+
+## Git Merge
+
+It is used to combine the changes made in one branch to the main bracnch
+
+- `git merge <-Branch Name->` : Combine the present brach with mentioned branch
+- **Merge Conflict** : It occurs when same line is chnaged in 2 branches and we try to merge it.
+  - Solution : Manually select original/new/both changes
+
