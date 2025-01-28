@@ -38,6 +38,9 @@ It is used to set username and mail so we can keep track that changes can be mad
 - **pull** : pull chnaged remote repo into the local
   `git pull origin main`
 
+- **Pull request** : This is done manually in github.In this the user can check who made changes and iis it useful and then he can merge.
+
+- **Fork** : To copy the other user repo and edit it.
 
 ## To create new Repo in Local and Upload it to Remote Repo
 
@@ -66,4 +69,153 @@ It is used to combine the changes made in one branch to the main bracnch
 - `git merge <-Branch Name->` : Combine the present brach with mentioned branch
 - **Merge Conflict** : It occurs when same line is chnaged in 2 branches and we try to merge it.
   - Solution : Manually select original/new/both changes
+
+----------------------------------------------------------------------------------------------------------------------
+
+# Azure Devops
+
+It consist of a tools and services for software develpoment lifecycle management.
+* End to End integration
+* Scalibility
+* Multi Platform Supports
+* Security
+* Extensibility
+
+Main 5 types
+1. Boards
+2. Repos
+3. Pipelines
+4. Test Plans
+5. Artifacts
+
+1.**Boards**:
+- Its a project Management tool for tracking work items,bugs and features
+- We can assign task to any team members
+- We can highlight task based on its priority
+
+2.**Repos**
+- A version control system to manage code using git ot TFVC
+- Code collaboration through Pull requsts
+- Branch and Merge supports
+
+3.**Pipelines** :
+- Its a CI/CD platform to build test, and deploy applications across multiple flatforms
+- Supports Multiple Languages and platforms
+- To Deploy the appplication
+
+4.**Test Plans**:
+- A testing solution to plan,execute and track manual tests
+- To check the application is working fine
+- Test case management and Execution
+
+5.**Artifacts** :
+- A repository for managing and sharing packages like NuGet,npm, Maven and Python
+- Supports packets versioning
+- Used to integrate with CI/CD pipelines
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+# Big Data
+Big data refers to the massive datasets that are too large and cant be processed by using traditional data processing Methods.
+It is characterized by 3V
+1. Volume : Refers to large amount of data collected by various sources like social media, sensors, machine.
+2. Velocity : It describes speed at which data is generated and processed
+3. Variety : diffrent types of data formats such as text,images,videos and logs
+
+## Types of data:
+
+1. **Structured Data**
+2. **Unstuctured Data**
+3. **Semi-Stuctured Data**
+
+1. **Structured Data**:
+It is highly organized and stored in a predefined format,making it easy to search and analyze.
+- Follows tabular formats
+- Easy searchable using SQL
+- Predefined Data schema
+
+2. **Unstuctured Data**:
+They lacks a predefined format making it harder to search and analyze.
+- Do not follow a specific structure or schema
+- Requires advanced tool like ML for analysis
+- Eg: Emails,audio,images and video files
+
+3. **Semi-Stuctured Data**:
+It comes between structured and unstructured data. It has some level of organization but lacks a strict schema, making it more flexible than structured data
+- Does not conform to a rigid structure but contains tags or markers to separate elements
+- Flexible, allowing data to evolve over time
+- Eg : json,xml,log files from applications
+
+## Tools and Technologies
+It involves frameworks, platforms, and tools that help in processing and analyzing these massive datasets
+
+1. Distributed Storage:
+- Hadoop HDFS: For distributed storage
+- Amazon S3, Google Cloud Storage, Azure Blob Storage
+
+2. Distributed Processing:
+- Apache Spark: In-memory distributed data processing
+- Hadoop MapReduce: Batch processing framework
+
+3. Data Streaming:
+- Apache Kafka: For real-time data ingestion
+- Apache Flink or Apache Storm: For stream processing
+
+4. Database Systems:
+- NoSQL: MongoDB, Cassandra, HBase
+- SQL: Amazon Redshift, Google BigQuery
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+# Data Analytics
+It is the process of examining datasets to uncover patterns, trends, and insights that can help in decision-making 
+It combines statistical techniques, tools, and technologies to analyze and interpret data
+
+## Types of Data Analytics
+
+1. Descriptive Analytics
+- To summarize and describe historical data
+- Key Question: "What happened?"
+- Techniques:
+    - Data visualization (charts, graphs, dashboards)
+    - Summary statistics (mean, median, variance)
+-Example: A sales dashboard showing monthly revenue trends
+
+2. Diagnostic Analytics
+- To identify the causes of specific events or patterns
+- Key Question: "Why did it happen?"
+- Techniques:
+    - Drill-down analysis
+    - Correlation and regression analysis
+- Example: Identifying why website traffic dropped in a specific month
+
+3. Predictive Analytics
+- To forecast future outcomes based on historical data
+- Key Question: "What is likely to happen?"
+- Techniques:
+    - Machine learning models
+    - Time series analysis
+- Example: Predicting customer churn in a subscription-based business
+
+4. Prescriptive Analytics
+- To recommend actions to achieve desired outcomes
+- Key Question: "What should we do?"
+- Techniques:
+    - Optimization algorithms
+    - Scenario analysis
+- Example: Suggesting the best pricing strategy to maximize profit
+
+## Steps in the Data Analytics Process
+1. Data Collection: Gathering raw data from various sources like databases, APIs, or sensors
+2. Data Cleaning: Handling missing values, removing duplicates, and ensuring data consistency
+3. Data Exploration: Using visualization and statistical methods to understand the data
+4. Data Analysis: Applying techniques like clustering, classification, or regression
+5. Interpretation: Deriving insights and making data-driven decisions
+6. Visualization and Reporting: Presenting findings using dashboards or reports
+
+
+--------------------------------------------------------------------------------------------------------------------
+
 
