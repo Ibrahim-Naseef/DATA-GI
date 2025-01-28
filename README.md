@@ -150,19 +150,19 @@ It comes between structured and unstructured data. It has some level of organiza
 ## Tools and Technologies
 It involves frameworks, platforms, and tools that help in processing and analyzing these massive datasets
 
-1. Distributed Storage:
+1. **Distributed Storage**:
 - Hadoop HDFS: For distributed storage
 - Amazon S3, Google Cloud Storage, Azure Blob Storage
 
-2. Distributed Processing:
+2. **Distributed Processing**:
 - Apache Spark: In-memory distributed data processing
 - Hadoop MapReduce: Batch processing framework
 
-3. Data Streaming:
+3. **Data Streaming**:
 - Apache Kafka: For real-time data ingestion
 - Apache Flink or Apache Storm: For stream processing
 
-4. Database Systems:
+4. **Database Systems**:
 - NoSQL: MongoDB, Cassandra, HBase
 - SQL: Amazon Redshift, Google BigQuery
 
@@ -175,7 +175,7 @@ It combines statistical techniques, tools, and technologies to analyze and inter
 
 ## Types of Data Analytics
 
-1. Descriptive Analytics
+1. **Descriptive Analytics**
 - To summarize and describe historical data
 - Key Question: "What happened?"
 - Techniques:
@@ -183,7 +183,7 @@ It combines statistical techniques, tools, and technologies to analyze and inter
     - Summary statistics (mean, median, variance)
 -Example: A sales dashboard showing monthly revenue trends
 
-2. Diagnostic Analytics
+2. **Diagnostic Analytics**
 - To identify the causes of specific events or patterns
 - Key Question: "Why did it happen?"
 - Techniques:
@@ -191,7 +191,7 @@ It combines statistical techniques, tools, and technologies to analyze and inter
     - Correlation and regression analysis
 - Example: Identifying why website traffic dropped in a specific month
 
-3. Predictive Analytics
+3. **Predictive Analytics**
 - To forecast future outcomes based on historical data
 - Key Question: "What is likely to happen?"
 - Techniques:
@@ -199,7 +199,7 @@ It combines statistical techniques, tools, and technologies to analyze and inter
     - Time series analysis
 - Example: Predicting customer churn in a subscription-based business
 
-4. Prescriptive Analytics
+4. **Prescriptive Analytics**
 - To recommend actions to achieve desired outcomes
 - Key Question: "What should we do?"
 - Techniques:
@@ -208,12 +208,12 @@ It combines statistical techniques, tools, and technologies to analyze and inter
 - Example: Suggesting the best pricing strategy to maximize profit
 
 ## Steps in the Data Analytics Process
-1. Data Collection: Gathering raw data from various sources like databases, APIs, or sensors
-2. Data Cleaning: Handling missing values, removing duplicates, and ensuring data consistency
-3. Data Exploration: Using visualization and statistical methods to understand the data
-4. Data Analysis: Applying techniques like clustering, classification, or regression
-5. Interpretation: Deriving insights and making data-driven decisions
-6. Visualization and Reporting: Presenting findings using dashboards or reports
+1. **Data Collection**: Gathering raw data from various sources like databases, APIs, or sensors
+2. **Data Cleaning**: Handling missing values, removing duplicates, and ensuring data consistency
+3. **Data Exploration**: Using visualization and statistical methods to understand the data
+4. **Data Analysis**: Applying techniques like clustering, classification, or regression
+5. **Interpretation**: Deriving insights and making data-driven decisions
+6. **Visualization and Reporting**: Presenting findings using dashboards or reports
 
 
 --------------------------------------------------------------------------------------------------------------------
