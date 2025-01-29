@@ -266,9 +266,9 @@ DataOps is a set of practices that improve the management of data by automating 
 It's based on agile software engineering and DevOps practices
 
 ## Key Components of a DataOps Pipeline
--- **Data Ingestion** : Extract data from multiple sources.
--- **Data Transformation** : Clean, preprocess, and enrich data.
--- **Data Validation** : Perform schema validation, quality checks, and unit testing.
--- **Data Deployment** : Automate deployment of data models, dashboards, APIs.
--- **Data Monitoring** : Ensure data reliability, consistency, and performance.
+- **Data Ingestion** : Extract data from multiple sources.
+- **Data Transformation** : Clean, preprocess, and enrich data.
+- **Data Validation** : Perform schema validation, quality checks, and unit testing.
+- **Data Deployment** : Automate deployment of data models, dashboards, APIs.
+- **Data Monitoring** : Ensure data reliability, consistency, and performance.
 
