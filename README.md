@@ -222,9 +222,9 @@ It combines statistical techniques, tools, and technologies to analyze and inter
 A data pipeline is a set of tools and processes for collecting, processing, and delivering data from one or more sources to a destination where it can be analyzed and used
 
 ## How it works
-1. Extract: Data is extracted from various sources 
-2. Transform: The data is cleaned, enriched, or modified 
-3. Load: The data is stored in a data store, such as a data warehouse or data lake 
+1. **Extract**: Data is extracted from various sources 
+2. **Transform**: The data is cleaned, enriched, or modified 
+3. **Load**: The data is stored in a data store, such as a data warehouse or data lake 
 
 ## Types od Data pipelines
 - **Batch pipelines**
