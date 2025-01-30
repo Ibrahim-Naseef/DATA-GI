@@ -90,31 +90,31 @@ Main 5 types
 4. Test Plans
 5. Artifacts
 
-1.**Boards**:
+### 1. **Boards**:
 
 - Its a project Management tool for tracking work items,bugs and features
 - We can assign task to any team members
 - We can highlight task based on its priority
 
-  2.**Repos**
+### 2. **Repos**
 
 - A version control system to manage code using git ot TFVC
 - Code collaboration through Pull requsts
 - Branch and Merge supports
 
-  3.**Pipelines** :
+### 3. **Pipelines** :
 
 - Its a CI/CD platform to build test, and deploy applications across multiple flatforms
 - Supports Multiple Languages and platforms
 - To Deploy the appplication
 
-  4.**Test Plans**:
+### 4. **Test Plans**:
 
 - A testing solution to plan,execute and track manual tests
 - To check the application is working fine
 - Test case management and Execution
 
-  5.**Artifacts** :
+### 5. **Artifacts** :
 
 - A repository for managing and sharing packages like NuGet,npm, Maven and Python
 - Supports packets versioning
