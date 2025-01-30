@@ -137,21 +137,21 @@ It is characterized by 3V
 2. **Unstuctured Data**
 3. **Semi-Stuctured Data**
 
-4. **Structured Data**:
+### 1. **Structured Data**:
    It is highly organized and stored in a predefined format,making it easy to search and analyze.
 
 - Follows tabular formats
 - Easy searchable using SQL
 - Predefined Data schema
 
-2. **Unstuctured Data**:
+### 2. **Unstuctured Data**:
    They lacks a predefined format making it harder to search and analyze.
 
 - Do not follow a specific structure or schema
 - Requires advanced tool like ML for analysis
 - Eg: Emails,audio,images and video files
 
-3. **Semi-Stuctured Data**:
+### 3. **Semi-Stuctured Data**:
    It comes between structured and unstructured data. It has some level of organization but lacks a strict schema, making it more flexible than structured data
 
 - Does not conform to a rigid structure but contains tags or markers to separate elements
@@ -162,22 +162,22 @@ It is characterized by 3V
 
 It involves frameworks, platforms, and tools that help in processing and analyzing these massive datasets
 
-1. **Distributed Storage**:
+### 1. **Distributed Storage**:
 
 - Hadoop HDFS: For distributed storage
 - Amazon S3, Google Cloud Storage, Azure Blob Storage
 
-2. **Distributed Processing**:
+### 2. **Distributed Processing**:
 
 - Apache Spark: In-memory distributed data processing
 - Hadoop MapReduce: Batch processing framework
 
-3. **Data Streaming**:
+### 3. **Data Streaming**:
 
 - Apache Kafka: For real-time data ingestion
 - Apache Flink or Apache Storm: For stream processing
 
-4. **Database Systems**:
+### 4. **Database Systems**:
 
 - NoSQL: MongoDB, Cassandra, HBase
 - SQL: Amazon Redshift, Google BigQuery
@@ -191,14 +191,14 @@ It combines statistical techniques, tools, and technologies to analyze and inter
 
 ## Types of Data Analytics
 
-1. **Descriptive Analytics**
+### 1. **Descriptive Analytics**
 
 - To summarize and describe historical data
 - Key Question: "What happened?"
 - Techniques: - Data visualization (charts, graphs, dashboards) - Summary statistics (mean, median, variance)
   -Example: A sales dashboard showing monthly revenue trends
 
-2. **Diagnostic Analytics**
+### 2. **Diagnostic Analytics**
 
 - To identify the causes of specific events or patterns
 - Key Question: "Why did it happen?"
@@ -207,7 +207,7 @@ It combines statistical techniques, tools, and technologies to analyze and inter
   - Correlation and regression analysis
 - Example: Identifying why website traffic dropped in a specific month
 
-3. **Predictive Analytics**
+### 3. **Predictive Analytics**
 
 - To forecast future outcomes based on historical data
 - Key Question: "What is likely to happen?"
@@ -216,7 +216,7 @@ It combines statistical techniques, tools, and technologies to analyze and inter
   - Time series analysis
 - Example: Predicting customer churn in a subscription-based business
 
-4. **Prescriptive Analytics**
+### 4. **Prescriptive Analytics**
 
 - To recommend actions to achieve desired outcomes
 - Key Question: "What should we do?"
@@ -248,16 +248,16 @@ A data pipeline is a set of tools and processes for collecting, processing, and 
 
 ## Types od Data pipelines
 
-- **Batch pipelines**
+### 1. **Batch pipelines**
   Collect large amounts of data and process it in chunks at scheduled intervals. This is useful when insights from large amounts of data aren't needed immediately.
 
-- **Streaming data pipelines**
+### 2. **Streaming data pipelines**
   Process data as soon as it becomes available. This is useful for applications that require immediate data processing, such as fraud detection
 
-- **ETL pipelines**
+### 3. **ETL pipelines**
   Extract raw data from various sources, transform it into a single format, and load it into a target system
 
-- **ELT pipelines**
+### 4. **ELT pipelines**
   Similar to ETL pipelines, but with a different sequence of steps. In ELT, data is first loaded into a target system and then transformed
 
 ---
@@ -268,16 +268,16 @@ DevOps combines development (Dev) and operations (Ops) to increase the efficienc
 
 ## How does DevOps work?
 
-1. **Collaboration**
+### 1. **Collaboration**
    DevOps encourages collaboration between development, IT operations, quality engineering, and security teams
 
-2. **Automation**
+### 2. **Automation**
    DevOps uses tools and practices to automate manual tasks, such as testing, to reduce errors and speed up delivery
 
-3. **Continuous feedback**
+### 3. **Continuous feedback**
    DevOps encourages a culture of continuous feedback so teams can quickly adapt and improve
 
-4. **Security**
+### 4. **Security**
    DevOps uses tools like automated security testing to ensure software is secure throughout the development lifecycle
 
 ---
@@ -380,49 +380,49 @@ It is a cloud computing platform that provides a wide range of scalable and on-d
 
 ## Core AWS Services
 
-1.  **AWS EC2 (Elastic Compute Cloud)**
+### 1.  **AWS EC2 (Elastic Compute Cloud)**
 
 - Virtual servers in the cloud.
 - Scalable, pay-as-you-go.
 - Supports different instance types.
 
-2.  **AWS S3 (Simple Storage Service)**
+### 2.  **AWS S3 (Simple Storage Service)**
 
 - Object storage for any type of data.
 - Multiple storage classes (Standard, IA, Glacier).
 - Secure and scalable.
 
-3.  **AWS IAM (Identity and Access Management)**
+### 3.  **AWS IAM (Identity and Access Management)**
 
 - Manages user access and permissions.
 - Uses policies and roles for security.
 - Multi-factor authentication (MFA) support.
 
-4.  **AWS EBS (Elastic Block Store)**
+### 4.  **AWS EBS (Elastic Block Store)**
 
 - Persistent block storage for EC2.
 - Supports SSD & HDD types.
 - Snapshots for backup.
 
-5.  **AWS EFS (Elastic File System)**
+### 5.  **AWS EFS (Elastic File System)**
 
 - Scalable file storage for multiple EC2 instances.
 - Fully managed, automatic scaling.
 - Supports NFS (Network File System).
 
-6.  **AWS Glue**
+### 6.  **AWS Glue**
 
 - Managed ETL (Extract, Transform, Load) service.
 - Used for data preparation and transformation.
 - Serverless and integrates with AWS analytics.
 
-7.  **AWS RDS (Relational Database Service)**
+### 7.  **AWS RDS (Relational Database Service)**
 
 - Managed database service (MySQL, PostgreSQL, SQL Server, etc.).
 - Automated backups and scaling.
 - Multi-AZ for high availability.
 
-8.  **AWS CloudWatch**
+### 8.  **AWS CloudWatch**
 
 - Monitors AWS resources and applications.
 - Provides logs, metrics, and alerts.
